@@ -1,0 +1,20 @@
+name: Coins
+main: dk.haraldvitus.coins.Coins
+version: 1.0
+author: Harald Vitus
+description: Et plugin til at håndtere coins
+commands:
+  coins:
+    description: Håndter coins
+    usage: /<command> [subcommand] <arguments>
+    permission: coins.use
+    permission-message: Du har ikke adgang til denne kommando.
+    aliases: [coin]
+permissions:
+  coins.use:
+    description: Tillader brug af coins kommandoer.
+    default: true
+
+  coins.admin:
+    description: Tillader brug af admin kommandoer.
+    default: op
